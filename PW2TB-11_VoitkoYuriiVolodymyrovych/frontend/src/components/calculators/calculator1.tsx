@@ -99,7 +99,6 @@ export default function Calculator1() {
       {result && (
         <div className="mt-6">
           <div>
-            <h4 className="mt-2">Склад робочої маси мазуту:</h4>
             <ul>
               <li>Індекс викидів: {result.emissionIndex.toFixed(2)} г/ГДж</li>
               <li>Валовий викид: {result.grossEmission.toFixed(2)} т</li>
