@@ -1,0 +1,26 @@
+# Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go workspace files
+# If using Go Modules
+go.sum
+go.mod
+
+# IDE/Editor folders and files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go test binary, build directory
+*_test.go
+
+# Temporary files
+*.log
+*.tmp
