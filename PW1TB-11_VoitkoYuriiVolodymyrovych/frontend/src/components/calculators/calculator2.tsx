@@ -115,7 +115,7 @@ export default function Calculator2() {
               <li>SP: {result.composition.SP.toFixed(2)}%</li>
               <li>OP: {result.composition.OP.toFixed(2)}%</li>
               <li>AP: {result.composition.AP.toFixed(2)}%</li>
-              <li>VP: {result.composition.VP.toFixed(2)}%</li>
+              <li>VP: {result.composition.VP.toFixed(2)} мг/кг</li>
             </ul>
 
             <ul className="mt-2">
